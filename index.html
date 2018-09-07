@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Knowledge Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+
+    <div class="grid">
+        <div id="quiz">
+            <h1>Random Knowledge Quiz</h1>
+            <hr style="margin-bottom: 20px">
+
+            <!-- Question page -->
+            <div id=timeLeft></div>
+            <div id=currentQuestion></div>
+            <div class='question'></div>
+            <div class='answerList'></div>
+            <!-- Answer Page -->
+            <div id=message></div>
+            <div id=correctedAnswer></div>
+
+            <!-- Scoreboard -->
+            <div id=finalMessage></div>
+            <div id=correctAnswers></div>
+            <div id=incorrectAnswers></div>
+
+            <div class="buttons">
+                <button id="strBtn"></button>
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+
+            <footer>
+                <p id="progress">Question x of y.</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script> -->
+
+</body>
+
+</html>
